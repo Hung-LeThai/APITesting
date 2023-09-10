@@ -1,0 +1,206 @@
+{
+    "categories": {
+        "com.renesas.tools.compiler.ccrx": {
+            "id": "com.renesas.tools.compiler.ccrx",
+            "name": "Renesas CC-RX Compilers",
+            "description": "Renesas Compilers for RX devices"
+        },
+        "com.renesas.tools.compiler.ccrl": {
+            "id": "com.renesas.tools.compiler.ccrl",
+            "name": "Renesas CC-RL Compilers",
+            "description": "Renesas Compilers for RL78 devices"
+        },
+        "com.renesas.tools.compiler.ccrh": {
+            "id": "com.renesas.tools.compiler.ccrh",
+            "name": "Renesas CC-RH Compilers",
+            "description": "Renesas Compilers for RH850 devices"
+        },
+        "com.renesas.tools.utilities": {
+            "id": "com.renesas.tools.utilities",
+            "name": "Renesas Utilities",
+            "description": "Utilities"
+        }
+    },
+    "packages": {
+        "com.renesas.tools.compiler.ccrx.2_08_01": {
+            "type": "installer",
+            "name": "Renesas CC-RX v2.08.01",
+            "description": "Renesas C/C++ Compiler Package for RX Family v2.08.01",
+            "category": "com.renesas.tools.compiler.ccrx",
+            "versionString": "v2.08.01",
+            "file": "CC-RX_V20801_setup.exe",
+            "installSize": 1000,
+            "downloadInfo": {
+                "uri": "http://tool-support.renesas.com/e2studio/e2installer/software/renesas/ccrx/CC-RX_V20801_setup.exe",
+                "size": 23503424,
+                "hash": "3f657f7de3a5470b97c9ac0df51a3fe68aa53244046ebe2a7a923c441eb11567450ee68eea0804565537ed90b891b797da0e51310ebfdd4b9859f3839fb633aa"
+            },
+            "filter": "(&(family=*rx;*)(os=win32))",
+            "filterAsDefault": false,
+            "nativePackageId": "$msi:{03BE4AA1-EE38-4AA3-8A1F-111450AE8CA4}",
+            "requires": [
+                "com.renesas.tools.utilities.LicenseManager"
+            ]
+        },
+        "com.renesas.tools.compiler.ccrx.3_05_00": {
+            "type": "installer",
+            "name": "Renesas CC-RX v3.05.00",
+            "description": "Renesas C/C++ Compiler Package for RX Family v3.05.00",
+            "category": "com.renesas.tools.compiler.ccrx",
+            "versionString": "v3.05.00",
+            "file": "CC-RX_V30500_setup.exe",
+            "installSize": 1000,
+            "downloadInfo": {
+                "uri": "http://tool-support.renesas.com/e2studio/e2installer/software/renesas/ccrx/CC-RX_V30500_setup.exe",
+                "size": 24718504,
+                "hash": "5ca96cc33afa9e868d4463911eddd55e7c5caa55c7171067ac7bc8c2d3acb25b1db54a1aa1ac0176c5f9b85ead55ba600f7fe47f7c7450947cdd69bfd017c13d"
+            },
+            "filter": "(&(family=*rx;*)(os=win32))",
+            "filterAsDefault": true,
+            "nativePackageId": "$msi:{F3A5E707-4964-4064-B4CB-FC5BBB76EC3D}",
+            "requires": [
+                "com.renesas.tools.utilities.LicenseManager"
+            ]
+        },
+        "com.renesas.tools.compiler.ccrl.1_12_01": {
+            "type": "installer",
+            "name": "Renesas CC-RL v1.12.01",
+            "description": "Renesas C/C++ Compiler Package for RL78 Family v1.12.01",
+            "category": "com.renesas.tools.compiler.ccrl",
+            "versionString": "v1.12.01",
+            "file": "CC-RL_V11201_setup.exe",
+            "installSize": 1000,
+            "downloadInfo": {
+                "uri": "http://tool-support.renesas.com/e2studio/e2installer/software/renesas/ccrl/CC-RL_V11201_setup.exe",
+                "size": 21271104,
+                "hash": "371257a7a4a89383229b47bab4c186ad443f85a103ed1a72e9dcb26b96e17bba8c90b7a30397893fd5b347f39365107c9ce002d748f862c261c35e39590161db"
+            },
+            "filter": "(&(family=*rl78;*)(os=win32))",
+            "filterAsDefault": true,
+            "nativePackageId": "$msi:{5080D260-8B8D-4BE8-A7A3-02B814D7AA62}",
+            "requires": [
+                "com.renesas.tools.utilities.LicenseManager"
+            ]
+        },
+        "com.renesas.tools.compiler.ccrl.smsasm.1_00_00": {
+            "type": "installer",
+            "name": "SMS Assembler V1.00.00",
+            "description": "Renesas SMS Assembler for RL78 Family v1.00.00",
+            "category": "com.renesas.tools.compiler.ccrl.smsasm",
+            "versionString": "v1.00.00",
+            "file": "SMSASM_V10000_setup.exe",
+            "installSize": 1000,
+            "downloadInfo": {
+                "uri": "http://tool-support.renesas.com/e2studio/e2installer/software/renesas/smsasm/SMSASM_V10000_setup.exe",
+                "size": 21271104,
+                "hash": "f4c3863a54fa6978990ab249d9733148a9d4c4601dde90c53f9642f2160c82cb49d67876909d91ff1c1c8b1ba16fe62bb7b78a817d7e7cbfaa71083012936e4a"
+            },
+            "filter": "(&(family=*rl78;*)(os=win32))",
+            "filterAsDefault": true,
+            "nativePackageId": "$msi:{1D9ED77C-4CEF-40FC-ABFC-758672E73FFB}",
+            "requireProductVersion": "21.4.0"
+        },
+        "com.renesas.tools.compiler.ccrl.dspasm.1_04_02": {
+            "type": "installer",
+            "name": "DSP Assembler V1.04.02",
+            "description": "Renesas DSP Assembler for RL78 Family v1.04.02",
+            "category": "com.renesas.tools.compiler.ccrl.smsasm",
+            "versionString": "v1.04.02",
+            "file": "DSPASM_V10402_setup.exe",
+            "installSize": 1000,
+            "downloadInfo": {
+                "uri": "http://tool-support.renesas.com/e2studio/e2installer/software/renesas/smsasm/DSPASM_V10402_setup.exe",
+                "size": 21271104,
+                "hash": "994e7ebc8a3bed90b1a78f25848d6a7202ea46d53ec0dddfa6a3e166bc25c69f46b23cee0335987a088769f8f18a5a7d15fb96744f7418cfdfdd649dd7760cc7"
+            },
+            "filter": "(&(family=*rl78;*)(os=win32))",
+            "filterAsDefault": true,
+            "nativePackageId": "$msi:{98EC838B-B6EA-491F-8350-72EFF1B785A2}",
+            "requireProductVersion": "23.7.0"
+        },
+        "com.renesas.tools.compiler.ccrh.2_05_00": {
+            "type": "installer",
+            "name": "Renesas CC-RH v2.05.00",
+            "description": "Renesas C/C++ Compiler Package for RH850 Family v2.05.00",
+            "category": "com.renesas.tools.compiler.ccrh",
+            "versionString": "v2.05.00",
+            "file": "CC-RH_V20500_setup.exe",
+            "installSize": 1000,
+            "downloadInfo": {
+                "uri": "http://tool-support.renesas.com/e2studio/e2installer/software/renesas/ccrh/CC-RH_V20500_setup.exe",
+                "size": 20219096,
+                "hash": "7a5e492a749d0515dfc693975724bcaf310ae82d4f85cd5822c0c2460bddb14bd78305ec26dc6265c460ea208fc4f20d7f4ac60e8dc5b247dffe820b4f4a258d"
+            },
+            "filter": "(os=win32)",
+            "filterAsDefault": false,
+            "nativePackageId": "$msi:{DB7549AE-BE4D-46C5-B076-6FC32C7FFAF4}",
+            "requires": [
+                "com.renesas.tools.utilities.LicenseManager"
+            ]
+        },
+        "com.renesas.tools.utilities.E2SCP": {
+            "type": "installer",
+            "name": "Renesas E2 Self-Checking Program V1.02.00",
+            "description": "Self-checking program for the E2 emulators V1.02.00.",
+            "category": "com.renesas.tools.utilities",
+            "versionString": "v1.02.00",
+            "file": "E2SCP_V10200.exe",
+            "installSize": 1000,
+            "downloadInfo": {
+                "uri": "http://tool-support.renesas.com/e2studio/e2installer/software/renesas/util/E2SCP_V10200.exe",
+                "size": 5268680,
+                "hash": "ad0b56412c7a3bad4e17ee6ef6c38f1d45aab789320b8efd10bd8486f84d54cfc4345d2b62d12c38ec9f2582f8306e56985f77a9a474b7b93c5fa7a72f06a78f"
+            },
+            "filter": "(os=win32)",
+            "nativePackageId": "$msi:{7D7D7099-9EA6-43A0-A8B4-9741D86848FB}"
+        },
+        "com.renesas.tools.utilities.E2LiteSCP": {
+            "type": "installer",
+            "name": "Renesas E2 Lite Self-Checking Program V1.00.00",
+            "description": "Self-checking program for the E2 Lite emulators V1.00.00.",
+            "category": "com.renesas.tools.utilities",
+            "versionString": "v1.00.00",
+            "file": "E2LiteSCP_V10000.exe",
+            "installSize": 1000,
+            "downloadInfo": {
+                "uri": "http://tool-support.renesas.com/e2studio/e2installer/software/renesas/util/E2LiteSCP_V10000.exe",
+                "size": 5742592,
+                "hash": "378909850244749287e2b79e07b2830ffcfb57ce099e22cc71d807c186b3c4c0683cb952c8a07267925156128ca0c15ace2633ad523b9949eaf966264ea24ed2"
+            },
+            "filter": "(os=win32)",
+            "nativePackageId": "$msi:{E7E3B92F-131F-4D58-8A3C-B73D7DA36034}"
+        },
+        "com.renesas.tools.utilities.E1E20SCP": {
+            "type": "installer",
+            "name": "Renesas E1, E20 Self-Checking Program V1.01.00",
+            "description": "Self-checking program for the E1 and E20 emulators V1.01.00.",
+            "category": "com.renesas.tools.utilities",
+            "versionString": "v1.01.00",
+            "file": "E1E20SCP.exe",
+            "installSize": 1000,
+            "downloadInfo": {
+                "uri": "http://tool-support.renesas.com/e2studio/e2installer/software/renesas/util/E1E20SCP.exe",
+                "size": 1575032,
+                "hash": "bd2a2efc5ad662b59bae5178fe6afe93f4dd60ba0f10daaf0b569a6ba0bc0d1e9f4b1dbd3d0c753ab55f51716ab69c35dd6130390e8a7b33a58b9ad1bcef31c1"
+            },
+            "filter": "(os=win32)",
+            "nativePackageId": "$msi:{3640AF99-3835-4BE5-8EAE-61FF6E181F86}"
+        },
+        "com.renesas.tools.utilities.LicenseManager": {
+            "type": "installer",
+            "name": "Renesas Tool License Manager",
+            "description": "License Manager is a tool to register a license key for using RX Family C/C++ Compiler and RL78 Family C Compiler V1.",
+            "category": "com.renesas.tools.utilities",
+            "versionString": "2.06.00",
+            "file": "RenesasLicenseManager__V20600.exe",
+            "installSize": 1000,
+            "downloadInfo": {
+                "uri": "http://tool-support.renesas.com/e2studio/e2installer/software/renesas/util/RenesasLicenseManager__V20600.exe",
+                "size": 7684712,
+                "hash": "3ca6a0f9991813105deac5163829a5b1c5f793fc0a9cf6219f049e19ce819e7ca6533b97ef5deeab39fe89dc4660525c1c63b8ee53fdd29295756409637bd2e3"
+            },
+            "filter": "(&(userSelectable=false)(os=win32))",
+            "nativePackageId": "$msi:{3090CD52-A75E-4073-8CAD-F30DF1D61FE1}"
+        }
+    }
+}
